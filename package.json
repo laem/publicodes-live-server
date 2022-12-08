@@ -1,0 +1,14 @@
+{
+  "name": "publicodes-live-server",
+  "version": "0.0.1",
+  "description": "Enable live collaboration on publi.codes/studio",
+  "main": "index.js",
+  "repository": "git@github.com:laem/publicodes-live-server.git",
+  "license": "MIT",
+  "dependencies": {
+    "y-websocket": "^1.4.5"
+  },
+  "scripts": {
+    "start": "HOST=localhost PORT= YPERSISTENCE=./dbDir node ./node_modules/y-websocket/bin/server.js"
+  }
+}
