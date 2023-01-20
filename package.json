@@ -7,6 +7,8 @@
   "repository": "git@github.com:laem/publicodes-live-server.git",
   "license": "MIT",
   "dependencies": {
+    "@hocuspocus/extension-logger": "^1.0.0",
+    "@hocuspocus/extension-sqlite": "^1.0.0",
     "@hocuspocus/server": "^1.0.0",
     "y-mongodb-provider": "^0.1.4",
     "y-websocket": "^1.4.5",
