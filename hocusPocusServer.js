@@ -7,7 +7,6 @@ const port = process.env.PORT || 3000;
 
 const server = Server.configure({
   port,
-  address: "localhost",
   extensions: [
     new Logger(),
     new SQLite(),
