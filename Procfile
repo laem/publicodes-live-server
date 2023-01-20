@@ -1,1 +1,1 @@
-web: HOST=$HOST PORT=$PORT node server.js
+web: HOST=$HOST PORT=$PORT node hocusPocusServer.js
